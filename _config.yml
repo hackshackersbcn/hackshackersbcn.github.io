@@ -1,0 +1,21 @@
+# Site settings
+title: Hacks Hackers Barcelona
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+email: barcelona@hackshackers.com
+handle: hackshackersbcn
+
+# Analytics
+ga_id: XXX
+
+# default permalink for blog posts
+permalink: blog/:title
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'config']
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
